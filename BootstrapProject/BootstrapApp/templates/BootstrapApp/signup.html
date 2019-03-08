@@ -1,0 +1,10 @@
+{% extends 'BootstrapApp/base.html' %}
+{% load static %}
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    {{ newform.as_p }}
+    <button>Submit</button>
+</form>
+{% endblock content %}
+

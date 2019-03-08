@@ -1,0 +1,14 @@
+{% extends 'BootstrapApp/base.html' %}
+{% load static %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="checkbox" name="save">Keep me logged in<br>
+    <button>Submit</button>
+</form>
+<hr>
+<a href="{% url 'signup'%}"><p>Forgot Password</p></a>
+{% endblock content %}
+

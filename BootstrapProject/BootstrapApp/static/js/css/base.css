@@ -1,0 +1,22 @@
+body{
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    /*background-image: url("../images/City-Hall-011-700x400.jpg");*/
+    margin: 10% 30%;
+    background: rgba(128, 0, 128, 0.14);
+    padding: 2.5%;
+}
+
+input{
+    margin-bottom: 12px;
+}
+
+
+.input{
+    border-radius: 5px;
+    width: 100%
+}
